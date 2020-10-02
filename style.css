@@ -1,0 +1,64 @@
+.background {
+    background-image: url(/imges/background-main.png);
+    height: 250px;
+    width: 1101px;
+    background-repeat: no-repeat;
+    margin-top: 12.5%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.background div {
+width: 22%;
+height: 60%;
+display: inline-block;
+text-align: center;
+color: rgb(104, 104, 104);
+margin-top: 3%;
+}
+
+#section1 {
+    height: 60%;
+    width: 22%;
+}
+
+#image1 {
+    width: 67px;
+    height: auto;
+    background-image: url(/imges/tab.png);
+    background-repeat: no-repeat;
+    }
+
+#image2 {
+    width: 67px;
+    height: auto;
+    background-image: url(/imges/setting.png);
+    background-repeat: no-repeat;
+    }
+
+#image3 {
+    width: 67px;
+    height: auto;
+    background-image: url(/imges/dashboard.png);
+    background-repeat: no-repeat;
+    }
+
+.background > div:first-child {
+    margin-left: 14%;
+    margin-right: 3%;
+   }
+
+.background > div:last-child {
+    margin-right: 8%;
+    margin-left: 3%;
+   }
+
+ 
+
+
+
+
+
+
+
+
