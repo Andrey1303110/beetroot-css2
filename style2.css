@@ -1,0 +1,40 @@
+.background_image {
+    background-image: url(/imges/background-main.png);
+    background-repeat: no-repeat;
+    height: 290px;
+    width: 1101px;
+    margin-top: 8em; 
+    display: inline-flex;
+}
+
+#sect1 {
+    width: 200px;
+    height: 200px;
+    margin-left: 19.7em;
+}
+
+#sect2 {
+    width: 200px;
+    height: 200px;
+    margin-left: 2.5em;
+    margin-right: 2.5em;
+}
+
+#sect3 {
+    width: 200px;
+    height: 200px;
+}
+
+.text {
+    font-size: 10pt;
+    text-align: center;
+    color: slategray;
+}
+
+.upimg {
+    display: inline-block;
+}
+
+#img1 {
+    background-image: url(/imges/tab.png);
+}
