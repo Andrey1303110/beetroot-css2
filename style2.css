@@ -1,40 +1,100 @@
 .background_image {
     background-image: url(/imges/background-main.png);
     background-repeat: no-repeat;
-    height: 290px;
     width: 1101px;
-    margin-top: 8em; 
-    display: inline-flex;
+    margin-top: 8em;
 }
-
-#sect1 {
-    width: 200px;
-    height: 200px;
-    margin-left: 19.7em;
-}
-
-#sect2 {
-    width: 200px;
-    height: 200px;
-    margin-left: 2.5em;
-    margin-right: 2.5em;
-}
-
-#sect3 {
-    width: 200px;
-    height: 200px;
-}
-
-.text {
-    font-size: 10pt;
-    text-align: center;
-    color: slategray;
-}
-
-.upimg {
+span>div {
     display: inline-block;
 }
 
-#img1 {
+.sect1 {
+    width: 200px;
+    height: 400px;
+    margin-left: 20em;
+
+}
+
+.sect2 {
+    width: 200px;
+    height: 400px;
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+.sect3 {
+    width: 200px;
+    height: 400px;
+}
+
+.text1 {
+    font-size: 10pt;
+    text-align: center;
+    color: slategray;
+    display: inline-table;
+    margin-top: 2em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+}
+
+.text2 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 550;
+    font-size: 11pt;
+    }
+
+#upperimg {
+    display: inline-flex;
+    margin-top: 3em;
+}
+
+.img1 {
     background-image: url(/imges/tab.png);
+    height: 66.6px;
+    width: 66.8px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-left: 23.8em;
+}
+
+.img1:hover {
+    border-radius: 33px;
+    background-color: #ffffff;
+}
+
+.img2 {
+    background-image: url(/imges/setting.png);
+    height: 66.6px;
+    width: 66.8px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-left: 10.8em;
+    margin-right: 10.8em;
+    background-color: rgb(224, 236, 255);
+    border-radius: 34px;
+}
+
+.img2:hover {
+    border-radius: 34px;
+    background-color: rgb(179, 208, 255)
+}
+
+.img3 {
+    background-image: url(/imges/dashboard.png);
+    height: 66.6px;
+    width: 66.8px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgb(224, 236, 255);
+    border-radius: 34px;
+    }
+
+.img3:hover {
+    border-radius: 34px;
+    background-color: rgb(179, 208, 255)
+}
+
+#sect1 #sect2 #sect3 {
+    display: inline-flexbox;
 }
