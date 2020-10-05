@@ -52,7 +52,7 @@ span>div {
 }
 
 .img1 {
-    background-image: url(imges/tab.png);
+    background-image: url(./imges/tab.png);
     height: 66px;
     width: 67px;
     background-repeat: no-repeat;
