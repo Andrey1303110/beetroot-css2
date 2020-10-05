@@ -62,40 +62,38 @@ span>div {
 
 .img1:hover {
     border-radius: 33px;
-    background-color: #d6dbff;
+    background-color: #0178c7a4;
 }
 
 .img2 {
     background-image: url(https://andrey1303110.github.io/beetroot-css2/imges/setting.png);
-    height: 64px;
-    width: 64px;
+    height: 67px;
+    width: 67px;
     background-repeat: no-repeat;
     background-position: center;
-    margin-left: 10.9em;
-    margin-right: 11.0em;
-    border-radius: 35px;
-    background-color: #2491da;
+    margin-left: 10.8em;
+    margin-right: 10.9em;
+    border-radius: 50% 5px solid #0178c7a4;
 }
 
 .img2:hover {
-    border-radius: 35px;
-    background-color: #0178c7d3;
+    border-radius: 50%;
+    background-color: #0178c7a4;
 }
 
 .img3 {
     background-image: url(https://andrey1303110.github.io/beetroot-css2/imges/dashboard.png);
-    height: 64px;
-    width: 64px;
+    height: 67px;
+    width: 67px;
     background-repeat: no-repeat;
     background-position: center;
-    border-radius: 35px;
+    border-radius: 50% 5px solid #0178c7a4;
     overflow: hidden;
-    background-color: #2491da;
     }
 
 .img3:hover {
-    border-radius: 34px;
-    background-color: #0178c7d3;
+    border-radius: 50%;
+    background-color: #0178c7a4;
 }
 
 #sect1 #sect2 #sect3 {
